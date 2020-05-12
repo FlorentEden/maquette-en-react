@@ -1,0 +1,33 @@
+.VignetteGens{
+  width: 266px;
+  height: 390px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.VignetteGens:hover{
+  -webkit-box-shadow: 7px 11px 79px -38px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 11px 79px -38px rgba(0,0,0,0.75);
+  box-shadow: 7px 11px 79px -38px rgba(0,0,0,0.75);
+}
+
+.VignetteGens h3{
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.VignetteGens p{
+  color: #797979;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -20px;
+}

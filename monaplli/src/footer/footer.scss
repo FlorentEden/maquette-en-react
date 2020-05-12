@@ -1,0 +1,111 @@
+.Footer{
+  background-color: #303030;
+}
+
+.Footer-FlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Footer-FlexBox-logo{
+  padding-top: 60px;
+  padding-bottom: 100px;
+  width: 363px;
+  text-align: center;
+}
+
+.Footer-FlexBox-logo img{
+  width: 50%;
+}
+
+.Footer-FlexBox-logo ul{
+  width: 65%;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 43px;
+}
+
+ .Footer-FlexBox h4{
+   color: #ffffff;
+  font-family: "Raleway";
+  font-size: 28px;
+  font-weight: 300;
+ }
+
+ .Footer-FlexBox-Navigation{
+   padding-top: 60px;
+   padding-bottom: 100px;
+   width: 363px;
+   text-align: center;
+ }
+
+ .Footer-FlexBox-Navigation div{
+   margin-top: 30px;
+   list-style: none;
+   margin-left: 31%;
+   text-align: left;
+   color: #ffffff;
+   font-family: "Playfair Display";
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 30px;
+ }
+
+ .Footer-FlexBox-forClients{
+   padding-top: 60px;
+   padding-bottom: 100px;
+   width: 363px;
+   text-align: center;
+ }
+
+ .Footer-FlexBox-forClients div{
+   margin-top: 30px;
+   list-style: none;
+   margin-left: 31%;
+   text-align: left;
+   color: #ffffff;
+   font-family: "Playfair Display";
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 30px;
+ }
+
+ .Footer-FlexBox-ContactUs{
+   padding-top: 60px;
+   padding-bottom: 100px;
+   width: 363px;
+   text-align: center;
+ }
+
+ .Footer-FlexBox-ContactUs div{
+   margin-top: 30px;
+   list-style: none;
+   margin-left: 31%;
+   text-align: left;
+   color: #ffffff;
+   font-family: "Playfair Display";
+   font-size: 15px;
+   font-weight: 400;
+ }
+
+ .Footer-FlexBox-ContactUs p{
+   margin-top: 30px;
+   list-style: none;
+   text-align: left;
+   color: #ffffff;
+   font-family: "Playfair Display";
+   font-size: 15px;
+   font-weight: 400;
+ }
+
+ .Footer-FlexBox-ContactUs span{
+   color: #e2574c;
+   font-family: "Playfair Display";
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 23px;
+   text-decoration: underline;
+ }
