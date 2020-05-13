@@ -75,6 +75,11 @@ body{
 .SectionType2{
   margin-top: 60px;
   background-color: #f6f6f6;
+  overflow-x: hidden;
+}
+
+.SectionType3 {
+  overflow-x: hidden;
 }
 
 .SectionType3 h2{
@@ -116,6 +121,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .SectionType4-FlexBox-input input{
