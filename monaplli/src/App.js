@@ -12,12 +12,13 @@ import {
   Link
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Row, Container } from 'react-bootstrap';
+import { Col, Row, Container, Carousel } from 'react-bootstrap';
 import sectionType1Img from './images/sectionType1.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 var paragraph1 = {texte:"Quisque diam lorem interdum vitaapibus ac scelerisque vitae pede. Donec eget tellus non erat lacinia fertum. Donec in velit vel ipsum auctovinar. Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec tetuer adipis elit, aliquam eget nibh etlibura. Lorem ipsum dolor sitamet, consetetur sadipscing elitr."}
 var paragraph2 = {texte:"Agent info ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."}
+
 
 function App() {
   useEffect(() => {
