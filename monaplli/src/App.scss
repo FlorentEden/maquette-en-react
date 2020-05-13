@@ -200,13 +200,15 @@ body{
 }
 
 @media screen and (max-width: 640px) {
-  .SectionType1-FlexBox-Img{
-    display: none;
+  .Section-Type1-FlexBox{
+    flex-direction: column;
   }
-  .SectionType1-FlexBox-Img img{
-    display: none;
+  .SectionType1-FlexBox-Img{
+    width: 100%;
+    text-align: center;
   }
   .SectionType1-FlexBox-paragraph{
+    margin-top: 40px;
     width: 100%;
     text-align: center;
   }
