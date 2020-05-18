@@ -165,7 +165,6 @@ body{
   line-height: 60px;
   text-transform: uppercase;
   margin-left: 10px;
-  margin: 10px;
 }
 
 
@@ -220,5 +219,9 @@ body{
   }
   .Section-Type1 h2{
     text-align: center;
+  }
+
+  .SectionType4-FlexBox-input button{
+    margin: 10px;
   }
 }
