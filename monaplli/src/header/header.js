@@ -23,7 +23,7 @@ class Header extends Component {
 
 
     render(){
-        return <Navbar className="Header" collapseOnSelect expand="lg" bg="light" variant="light">
+        return <Navbar className="Header" collapseOnSelect expand="xl" bg="light" variant="light">
                   <Container>
                     <Link to="/"><img src={logo}></img></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
