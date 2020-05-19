@@ -75,10 +75,19 @@ function App() {
                     </div>
                   </Container>
                 </Container>
-                <Footer ></Footer>
+                <Footer></Footer>
               </Route>
               <Route path="/">
-                <Link to="/about">about</Link>
+                <Header></Header>
+              </Route>
+              <Route path="/Property">
+                <Header></Header>
+              </Route>
+              <Route path="/Our-Blog">
+                <Header></Header>
+              </Route>
+              <Route path="/Contacts">
+                <Header></Header>
               </Route>
             </Switch>
           </div>

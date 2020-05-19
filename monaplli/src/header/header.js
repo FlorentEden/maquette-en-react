@@ -29,11 +29,11 @@ class Header extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                       <Nav className="ml-auto mr-auto">
-                        <Nav.Link className="linkHeader">Home</Nav.Link>
-                        <Nav.Link className="linkHeader">About Us</Nav.Link>
-                        <Nav.Link className="linkHeader">Property</Nav.Link>
-                        <Nav.Link className="linkHeader">Our Blog</Nav.Link>
-                        <Nav.Link className="linkHeader">Contacts</Nav.Link>
+                        <Nav.Link className="linkHeader"><Link className="linkHeaderPath" to="/">Home</Link></Nav.Link>
+                        <Nav.Link className="linkHeader"><Link className="linkHeaderPath" to="/about">about</Link></Nav.Link>
+                        <Nav.Link className="linkHeader"><Link className="linkHeaderPath" to="/Property">Property</Link></Nav.Link>
+                        <Nav.Link className="linkHeader"><Link className="linkHeaderPath" to="/Our-Blog">Our Blog</Link></Nav.Link>
+                        <Nav.Link className="linkHeader"><Link className="linkHeaderPath" to="/Contacts">Contacts</Link></Nav.Link>
                       </Nav>
                       <Nav className="navbar-nav-social">
                       <Nav.Link className="linkHeaderSocial" href="#facebook"><SocialLink media="facebook"></SocialLink></Nav.Link>

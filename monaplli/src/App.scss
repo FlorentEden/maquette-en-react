@@ -48,6 +48,21 @@ body{
   font-weight: 400;
 }
 
+.linkHeaderPath{
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.linkHeaderPath:hover{
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .Section-Type1-FlexBox{
   display: flex;
   justify-content: space-between;
