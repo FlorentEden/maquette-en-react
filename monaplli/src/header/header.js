@@ -36,10 +36,10 @@ class Header extends Component {
                         <Nav.Link className="linkHeader">Contacts</Nav.Link>
                       </Nav>
                       <Nav className="navbar-nav-social">
-                      <Nav.Link className="linkHeader" href="#facebook"><SocialLink media="facebook"></SocialLink></Nav.Link>
-                      <Nav.Link className="linkHeader" href="#pinterest"><SocialLink media="pinterest"></SocialLink></Nav.Link>
-                      <Nav.Link className="linkHeader" href="#instagram"><SocialLink media="instagram"></SocialLink></Nav.Link>
-                      <Nav.Link className="linkHeader" href="#google+"><SocialLink media="google+"></SocialLink></Nav.Link>
+                      <Nav.Link className="linkHeaderSocial" href="#facebook"><SocialLink media="facebook"></SocialLink></Nav.Link>
+                      <Nav.Link className="linkHeaderSocial" href="#pinterest"><SocialLink media="pinterest"></SocialLink></Nav.Link>
+                      <Nav.Link className="linkHeaderSocial" href="#instagram"><SocialLink media="instagram"></SocialLink></Nav.Link>
+                      <Nav.Link className="linkHeaderSocial" href="#google+"><SocialLink media="google+"></SocialLink></Nav.Link>
                       </Nav>
                     </Navbar.Collapse>
                   </Container>
